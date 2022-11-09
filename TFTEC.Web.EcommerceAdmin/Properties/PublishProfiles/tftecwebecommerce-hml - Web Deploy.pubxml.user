@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEZaeLApl00q0/kZtjb+RkgAAAAACAAAAAAAQZgAAAAEAACAAAAAveTXeCP3ueX0KVZ/umits9TmYqkU2yAo3Dc5f9MMpbgAAAAAOgAAAAAIAACAAAADTj5QknLw62LPabOxFKATkyUdQ/+QfWg9zjW6QutPPBIAAAACdXNuwyOh9jM21JvXLMpoC/t5l429xgHj9wt0Xh+hFwPkqhxRZO4zaEXHsrBwvcfbVv2mZWoWa5m1E1y09TdUVml5YWqxxDS4+M1u86fvJd+kghnp3S4j72SaXlU1v6e6KSKnQjzY1Svk06IhJPC683aYarsTrKdCuoaimDwSFPkAAAADH0MW5s9zp58jnay4JWTFahECZhoun0lTm+J/pGAC+cbdiM6qOgkOPIw++KEsdSlev1MZ4S6IsshCC0nAfGnrj</EncryptedPassword>
+    <History>True|2022-11-09T04:25:20.0138164Z;True|2022-11-09T01:20:47.2566975-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=copa-mundo-tftec.database.windows.net%3bInitial Catalog=DB_TFTEC_ECOMM%3bUser ID=guilherme%40raphaandrade.ml%3bPassword=Joao%40%402020%3bAuthentication=Active Directory Password</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

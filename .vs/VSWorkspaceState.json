@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TFTEC.Web.Ecommerce",
+    "\\TFTEC.Web.Ecommerce\\Areas",
+    "\\TFTEC.Web.Ecommerce\\Areas\\Admin",
+    "\\TFTEC.Web.Ecommerce\\Areas\\Admin\\Controllers"
   ],
-  "SelectedNode": "\\C:\\ProjetoTFTEC\\Ecommerce",
+  "SelectedNode": "\\TFTEC.Web.Ecommerce\\Areas\\Admin\\Controllers\\AdminProdutoController.cs",
   "PreviewInSolutionExplorer": false
 }
