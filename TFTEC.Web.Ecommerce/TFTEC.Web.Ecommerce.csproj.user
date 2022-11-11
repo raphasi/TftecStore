@@ -11,6 +11,6 @@
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>TFTEC.Web.Ecommerce.Context.AppDbContext</WebStackScaffolding_DbContextTypeFullName>
-    <NameOfLastUsedPublishProfile>C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.Ecommerce\Properties\PublishProfiles\tftecwebecommerce-hml - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>tftecwebecommerce-hml - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

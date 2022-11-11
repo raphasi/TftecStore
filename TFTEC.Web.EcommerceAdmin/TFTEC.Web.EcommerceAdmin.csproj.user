@@ -6,6 +6,6 @@
     <WebStackScaffolding_ViewDialogWidth>800</WebStackScaffolding_ViewDialogWidth>
     <WebStackScaffolding_LayoutPageFile>~/Views/Shared/_LoginPartial.cshtml</WebStackScaffolding_LayoutPageFile>
     <WebStackScaffolding_DbContextDialogWidth>650,4</WebStackScaffolding_DbContextDialogWidth>
-    <NameOfLastUsedPublishProfile>tftecwebecommerce-hml - Web Deploy</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\Properties\PublishProfiles\tftecwebecommerce-hml - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
