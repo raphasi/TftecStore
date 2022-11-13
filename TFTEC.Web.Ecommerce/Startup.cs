@@ -14,7 +14,7 @@ using Azure.Storage.Blobs;
 using Azure.Core.Extensions;
 using Microsoft.Extensions.Options;
 using System.Configuration;
-using TFTEC.Web.Ecommerce.Areas.Admin.Servicos;
+//using TFTEC.Web.Ecommerce.Areas.Admin.Servicos;
 
 namespace TFTEC.Web.Ecommerce;
 public class Startup
@@ -45,17 +45,17 @@ public class Startup
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddTransient<IPedidoRepository, PedidoRepository>();
         services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
-        services.AddScoped<RelatorioVendasService>();
-        services.AddScoped<GraficoVendasService>();
+        //services.AddScoped<RelatorioVendasService>();
+        //services.AddScoped<GraficoVendasService>();
 
-        services.AddAuthorization(options =>
-        {
-            options.AddPolicy("Admin",
-                politica =>
-                {
-                    politica.RequireRole("Admin");
-                });
-        });
+        //services.AddAuthorization(options =>
+        //{
+        //    options.AddPolicy("Admin",
+        //        politica =>
+        //        {
+        //            politica.RequireRole("Admin");
+        //        });
+        //});
 
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
