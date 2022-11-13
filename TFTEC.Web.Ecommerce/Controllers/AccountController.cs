@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using TFTEC.Web.Ecommerce.ViewModel;
 
 namespace TFTEC.Web.Ecommerce.Controllers
@@ -78,7 +79,26 @@ namespace TFTEC.Web.Ecommerce.Controllers
                 }
                 else
                 {
-                    this.ModelState.AddModelError("Registro", "Falha ao registrar o usuário");
+                    if (result.Errors.Count() == 1)
+                        this.ModelState.AddModelError("Registro", "Falha ao cadastrar usuário");
+                    else
+                    {
+                        foreach (var item in result.Errors)
+                        {
+                            var mensagem = string.Empty;
+
+                            if (item.Description.Contains("Passwords must be at least 6 characters."))
+                                mensagem = "As senhas devem ter pelo menos 6 caracteres.";
+                            if (item.Description.Contains("Passwords must have at least one non alphanumeric character."))
+                                mensagem = "As senhas devem ter pelo menos um caractere não alfanumérico.";
+                            if (item.Description.Contains("Passwords must have at least one digit ('0'-'9')."))
+                                mensagem = "As senhas devem ter pelo menos um dígito ('0'-'9').";
+                            if (item.Description.Contains("Passwords must have at least one uppercase ('A'-'Z')."))
+                                mensagem = "As senhas devem ter pelo menos uma letra maiúscula ('A'-'Z').";
+
+                            this.ModelState.AddModelError("Registro", mensagem);
+                        }
+                    }
                 }
             }
             return View(registroVM);
