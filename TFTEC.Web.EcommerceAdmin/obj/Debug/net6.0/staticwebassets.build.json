@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SeS8G0OY/gLfvVTkVS/5E2eITWXmyJyfc/iXtZynAIA=",
+  "Hash": "7N/BPqyJ/lgtpzq/XinNii34/AoCVq2Yai+wPkNVRdM=",
   "Source": "TFTEC.Web.EcommerceAdmin",
   "BasePath": "_content/TFTEC.Web.EcommerceAdmin",
   "Mode": "Default",
@@ -372,6 +372,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\produtos\\camiseta_copa.jpg"
+    },
+    {
+      "Identity": "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.EcommerceAdmin\\wwwroot\\Images\\produtos\\fase_grupo.png",
+      "SourceId": "TFTEC.Web.EcommerceAdmin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.EcommerceAdmin\\wwwroot\\",
+      "BasePath": "_content/TFTEC.Web.EcommerceAdmin",
+      "RelativePath": "Images/produtos/fase_grupo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\produtos\\fase_grupo.png"
     },
     {
       "Identity": "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.EcommerceAdmin\\wwwroot\\Images\\produtos\\logo_tipo_copa.png",

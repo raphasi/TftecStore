@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z5MaXe8Yc/bh0Pjmuqmxle+Yz0ixi5x6n3UqG+aJTaTYEHD+DI5Qg/rkXBlP5XpYjFTZWYmh5dCzmtEfqwcUhA==",
+  "dgSpecHash": "0FDdc7gNNqoH46Qj9qErYO9pbynXYXA2l6hJfJXqnJvYv+/W2xK9LTX6UBfSIFpf8epO0qsNHjjLUoiC56o6mg==",
   "success": true,
   "projectFilePath": "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.EcommerceAdmin\\TFTEC.Web.EcommerceAdmin.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,10 @@
     "C:\\Users\\guilherme.campos\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\guilherme.campos\\.nuget\\packages\\azure.security.keyvault.certificates\\4.1.0\\azure.security.keyvault.certificates.4.1.0.nupkg.sha512",
     "C:\\Users\\guilherme.campos\\.nuget\\packages\\azure.security.keyvault.secrets\\4.2.0\\azure.security.keyvault.secrets.4.2.0.nupkg.sha512",
+    "C:\\Users\\guilherme.campos\\.nuget\\packages\\azure.storage.blobs\\12.3.0\\azure.storage.blobs.12.3.0.nupkg.sha512",
+    "C:\\Users\\guilherme.campos\\.nuget\\packages\\azure.storage.common\\12.2.0\\azure.storage.common.12.2.0.nupkg.sha512",
+    "C:\\Users\\guilherme.campos\\.nuget\\packages\\azure.storage.files.shares\\12.1.0\\azure.storage.files.shares.12.1.0.nupkg.sha512",
+    "C:\\Users\\guilherme.campos\\.nuget\\packages\\azure.storage.queues\\12.2.0\\azure.storage.queues.12.2.0.nupkg.sha512",
     "C:\\Users\\guilherme.campos\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\guilherme.campos\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\guilherme.campos\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

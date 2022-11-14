@@ -1,12 +1,16 @@
 {
   "dependencies": {
+    "identityapp1": {
+      "restored": true,
+      "restoreTime": "2022-11-08T18:01:21.0885749Z"
+    },
     "mssql1": {
       "restored": true,
       "restoreTime": "2022-11-08T18:46:05.6034179Z"
     },
-    "identityapp1": {
+    "storage1": {
       "restored": true,
-      "restoreTime": "2022-11-08T18:01:21.0885749Z"
+      "restoreTime": "2022-11-13T14:31:57.9318327Z"
     }
   },
   "parameters": {
@@ -19,6 +23,16 @@
       "Name": "mssql1.resourceGroupName",
       "Type": "resourceGroup",
       "Value": "rg-copahml"
+    },
+    "storage1.resourceGroupName": {
+      "Name": "storage1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "rg-copahml"
+    },
+    "storage1.subscriptionId": {
+      "Name": "storage1.subscriptionId",
+      "Type": "subscription",
+      "Value": "be3cd323-9058-48a3-a5a0-a18f60925bc7"
     }
   }
 }

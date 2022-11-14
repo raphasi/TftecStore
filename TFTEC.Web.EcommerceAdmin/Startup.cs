@@ -15,6 +15,9 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Identity.Web.UI;
 using TFTEC.Web.EcommerceAdmin.Models;
 using TFTEC.Web.EcommerceAdmin.Servicos;
+using Azure.Storage.Queues;
+using Azure.Storage.Blobs;
+using TFTEC.Web.EcommerceAdmin.Controllers;
 
 namespace TFTEC.Web.EcommerceAdmin;
 public class Startup
@@ -33,12 +36,12 @@ public class Startup
         services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
             .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"));
 
+        services.AddAzureClients(builder => builder.AddBlobServiceClient(Configuration.GetConnectionString("CloudStorage")));
+
+        services.AddScoped(x => new BlobServiceClient(Configuration["CloudStorage"]));
+
         services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
-        //services.AddIdentity<IdentityUser, IdentityRole>()
-        //     .AddEntityFrameworkStores<AppDbContext>()
-        //     .AddDefaultTokenProviders();
 
         services.ConfigureApplicationCookie(options => options.AccessDeniedPath = "/Home/AccessDenied");
 

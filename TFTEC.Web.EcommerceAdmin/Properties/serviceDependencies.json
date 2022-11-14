@@ -8,6 +8,11 @@
       "type": "mssql",
       "connectionId": "ConnectionStrings:DefaultConnection",
       "dynamicId": null
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "blob-tftec-container",
+      "dynamicId": null
     }
   }
 }
