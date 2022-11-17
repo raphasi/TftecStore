@@ -299,6 +299,10 @@ C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\obj\Debug\net6.0\PubTmp\Out\A
 C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\obj\Debug\net6.0\PubTmp\Out\Azure.Identity.dll
 C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\obj\Debug\net6.0\PubTmp\Out\Azure.Security.KeyVault.Certificates.dll
 C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\obj\Debug\net6.0\PubTmp\Out\Azure.Security.KeyVault.Secrets.dll
+C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\obj\Debug\net6.0\PubTmp\Out\Azure.Storage.Blobs.dll
+C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\obj\Debug\net6.0\PubTmp\Out\Azure.Storage.Common.dll
+C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\obj\Debug\net6.0\PubTmp\Out\Azure.Storage.Files.Shares.dll
+C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\obj\Debug\net6.0\PubTmp\Out\Azure.Storage.Queues.dll
 C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\obj\Debug\net6.0\PubTmp\Out\Humanizer.dll
 C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\obj\Debug\net6.0\PubTmp\Out\MessagePack.dll
 C:\ProjetoTFTEC\Ecommerce\TFTEC.Web.EcommerceAdmin\obj\Debug\net6.0\PubTmp\Out\MessagePack.Annotations.dll

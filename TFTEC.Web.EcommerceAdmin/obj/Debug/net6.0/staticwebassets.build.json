@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7N/BPqyJ/lgtpzq/XinNii34/AoCVq2Yai+wPkNVRdM=",
+  "Hash": "D8wHdpFfdqW04DO5GJk2HxYpfd60pmms0Yiiy/N/cs4=",
   "Source": "TFTEC.Web.EcommerceAdmin",
   "BasePath": "_content/TFTEC.Web.EcommerceAdmin",
   "Mode": "Default",
@@ -253,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\delete.png"
+    },
+    {
+      "Identity": "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.EcommerceAdmin\\wwwroot\\Images\\deleteImage.png",
+      "SourceId": "TFTEC.Web.EcommerceAdmin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.EcommerceAdmin\\wwwroot\\",
+      "BasePath": "_content/TFTEC.Web.EcommerceAdmin",
+      "RelativePath": "Images/deleteImage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\deleteImage.png"
     },
     {
       "Identity": "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.EcommerceAdmin\\wwwroot\\Images\\Envelope-icon24.png",

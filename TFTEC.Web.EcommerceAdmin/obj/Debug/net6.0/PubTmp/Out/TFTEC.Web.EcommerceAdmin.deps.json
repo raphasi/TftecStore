@@ -36,6 +36,9 @@
         "dependencies": {
           "Azure.Extensions.AspNetCore.Configuration.Secrets": "1.2.2",
           "Azure.Identity": "1.6.0",
+          "Azure.Storage.Blobs": "12.3.0",
+          "Azure.Storage.Files.Shares": "12.1.0",
+          "Azure.Storage.Queues": "12.2.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.9",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "6.0.9",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.9",
@@ -431,6 +434,66 @@
         },
         "compile": {
           "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll": {}
+        }
+      },
+      "Azure.Storage.Blobs/12.3.0": {
+        "dependencies": {
+          "Azure.Core": "1.24.0",
+          "Azure.Storage.Common": "12.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Storage.Blobs.dll": {
+            "assemblyVersion": "12.3.0.0",
+            "fileVersion": "12.300.20.11104"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Storage.Blobs.dll": {}
+        }
+      },
+      "Azure.Storage.Common/12.2.0": {
+        "dependencies": {
+          "Azure.Core": "1.24.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Storage.Common.dll": {
+            "assemblyVersion": "12.2.0.0",
+            "fileVersion": "12.200.20.11104"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Storage.Common.dll": {}
+        }
+      },
+      "Azure.Storage.Files.Shares/12.1.0": {
+        "dependencies": {
+          "Azure.Core": "1.24.0",
+          "Azure.Storage.Common": "12.2.0",
+          "System.Text.Json": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Storage.Files.Shares.dll": {
+            "assemblyVersion": "12.1.0.0",
+            "fileVersion": "12.100.20.11104"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Storage.Files.Shares.dll": {}
+        }
+      },
+      "Azure.Storage.Queues/12.2.0": {
+        "dependencies": {
+          "Azure.Core": "1.24.0",
+          "Azure.Storage.Common": "12.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Storage.Queues.dll": {
+            "assemblyVersion": "12.2.0.0",
+            "fileVersion": "12.200.20.11104"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Storage.Queues.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -4978,6 +5041,34 @@
       "sha512": "sha512-ujVMKVzEtVNQom5A0iEXSDovNGoSidV0RO5QlOBFfcIZlXwFnBmO5OhOfS4D/F1gbMNCCFS3re39qd/Bgh6+QQ==",
       "path": "azure.security.keyvault.secrets/4.2.0",
       "hashPath": "azure.security.keyvault.secrets.4.2.0.nupkg.sha512"
+    },
+    "Azure.Storage.Blobs/12.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RyzwZqPqAS8EDiPjFT+mk+tSaNpj8jEIXcTgLfpkvbHfUHscsre/5ZIQ040DNHQiUBPT4DGKPwvVZYAwG6VhNQ==",
+      "path": "azure.storage.blobs/12.3.0",
+      "hashPath": "azure.storage.blobs.12.3.0.nupkg.sha512"
+    },
+    "Azure.Storage.Common/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-neZaUGmU9UmvXPs94I5fC42o8AaQLn9IG/xSdfs8POloArwdycAbC9CqtlIJLVvVSw5O/6eagRSo/7mYhIC8gg==",
+      "path": "azure.storage.common/12.2.0",
+      "hashPath": "azure.storage.common.12.2.0.nupkg.sha512"
+    },
+    "Azure.Storage.Files.Shares/12.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qF0nsCNh+SqUvRyx0zG8teJsEImeFlO5uqpcWtursupvhyG+kBJOuSRjUQDoK1Uw4tS2IxkrTV1R5vXP03KGcA==",
+      "path": "azure.storage.files.shares/12.1.0",
+      "hashPath": "azure.storage.files.shares.12.1.0.nupkg.sha512"
+    },
+    "Azure.Storage.Queues/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i78L7cu95JZPKHvRPA/Xnom7bVyxbnsn/KtFdKnRwaBRUhnuM7xPBTzpReZB7+gw4i6s1VJDSbD2xLJXKi+XNg==",
+      "path": "azure.storage.queues/12.2.0",
+      "hashPath": "azure.storage.queues.12.2.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

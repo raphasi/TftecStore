@@ -110,17 +110,40 @@ namespace TFTEC.Web.EcommerceAdmin.Controllers
             return View(allBlobs);
         }
 
-        public async Task<ActionResult> Deletefile(string fname)
+        public async Task<ActionResult> DeleteImage(string name)
         {
             try
             {
-                Uri uri = new Uri(fname);
+                Uri uri = new Uri(name);
                 string filename = Path.GetFileName(uri.LocalPath);
 
                 var blob = blobContainer.GetBlobClient(filename);
                 await blob.DeleteIfExistsAsync();
 
                 return View("Index");
+            }
+            catch (Exception ex)
+            {
+                ViewData["message"] = ex.Message;
+                ViewData["trace"] = ex.StackTrace;
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> DeleteAll()
+        {
+            try
+            {
+                foreach (var blob in blobContainer.GetBlobs())
+                {
+                    if (blob.Properties.BlobType == BlobType.Block)
+                    {
+                        await blobContainer.DeleteBlobIfExistsAsync(blob.Name);
+                    }
+                }
+
+                return RedirectToAction("Index");
             }
             catch (Exception ex)
             {

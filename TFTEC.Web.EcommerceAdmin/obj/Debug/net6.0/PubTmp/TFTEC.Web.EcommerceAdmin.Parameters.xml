@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="tftecwebecommerce-hml/adm" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="ecommerce-tftec-dev/adm" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\ProjetoTFTEC\\Ecommerce\\TFTEC\.Web\.EcommerceAdmin\\obj\\Debug\\net6\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>
